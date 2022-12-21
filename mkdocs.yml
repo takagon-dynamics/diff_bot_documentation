@@ -1,0 +1,64 @@
+site_name: Diff Bot（Differential Robot）
+site_url: https://takagon-dynamics.github.io/diff_bot_documentation
+site_author: Tatsuhiro Ikebe
+
+repo_name:  takagon-dynamics/diff_bot_documentation 
+repo_url: https://github.com/takagon-dynamics/diff_bot_documentation
+repo: fontawesome/brands/github
+
+copyright: Copyright &copy; 2022 Tatsuhiro Ikebe
+
+theme:
+    name: material
+    language: ja
+    logo: 'https://i.gyazo.com/667c1d52a447f38d53cd52beadbb40f1.png'
+    favicon: 'https://i.gyazo.com/ed2afbfd0328143ef7e2c0418172348f.png'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+    features:
+        - navigation.tabs
+        - navigation.top
+        - navigation.expand
+        - content.code.annotate
+    palette:
+        - scheme: default
+          primary: pink
+          accent: pink
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: ダークモードに切り替えます。
+
+        - scheme: slate
+          primary: idigo
+          accent: indigo
+          toggle:
+              icon: material/toggle-switch
+              name: ライトモードに切り替えます。
+    icon:
+      repo: fontawesome/brands/github
+
+extra:
+    logo:
+        icon: 'developer_board'
+    manifest: 'manifest.webmanifest'
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/uhobeike
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/BEIKE_RE
+
+markdown_extensions:
+    - admonition
+    - footnotes
+    - codehilite:
+        guess_lang: true
+        pygments_style: colorful
+        linenums: false
+
+nav:
+
+- Home:
+  - このサイトについて: index.md
+- Document:
+  - Diff Botについて: document/diff_bot_documentaion.md
